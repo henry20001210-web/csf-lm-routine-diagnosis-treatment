@@ -1,0 +1,42 @@
+{
+  "task": "P_vs_D",
+  "family": "TabPFN",
+  "n": 892,
+  "nested_auc": 0.9072241727843388,
+  "selection_cv_auc": 0.9085559680667784,
+  "features": [
+    "Lactate",
+    "LDH",
+    "Nucleated cells",
+    "Glucose",
+    "LMR",
+    "AST"
+  ],
+  "parameters": {},
+  "threshold": 0.7425058484077454,
+  "signature": "111ddbadcc7a100cbb8c8a196f229b9350019217b873bd655594f43f2a4539da",
+  "seed": 20266911,
+  "candidate_features": [
+    "CSF protein",
+    "Glucose",
+    "Chloride",
+    "Lactate",
+    "LDH",
+    "ADA",
+    "AST",
+    "Nucleated cells",
+    "Total cells",
+    "RBC",
+    "LNR",
+    "LMR"
+  ],
+  "selected_indices": [
+    3,
+    4,
+    7,
+    1,
+    11,
+    6
+  ],
+  "n_estimators": 4
+}
